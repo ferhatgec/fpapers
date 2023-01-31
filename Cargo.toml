@@ -1,0 +1,18 @@
+[package]
+name = "fpapers"
+authors = ["\"ferhatgec\""]
+description = "Rust implementation of FPaper file structure."
+keywords = ["rust", "fpaper", "file_structure", "file", "format"]
+readme = "README.md"
+repository = "https://github.com/ferhatgec/fpapers"
+documentation = "https://docs.rs/fpapers"
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+
+include = [
+    ".gitignore",
+    "Cargo.toml",
+    "src/*.rs",
+    "example.fpaper"
+]
